@@ -8,13 +8,13 @@ function myfunction() {
     let six1=document.querySelector('.six');
 
 
-    
-    let one2=document.querySelector('.one');
-    let two2=document.querySelector('.two');
-    let three2=document.querySelector('.three');
-    let four2=document.querySelector('.four');
-    let five2=document.querySelector('.five');
-    let six2=document.querySelector('.six');
+
+    let one2=document.querySelector('.one2');
+    let two2=document.querySelector('.two2');
+    let three2=document.querySelector('.three2');
+    let four2=document.querySelector('.four2');
+    let five2=document.querySelector('.five2');
+    let six2=document.querySelector('.six2');
     
 let x=Math.ceil(Math.random()*6)
 let y=Math.ceil(Math.random()*6)
