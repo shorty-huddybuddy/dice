@@ -1,3 +1,5 @@
+function myfunction() {
+    
 let x=Math.ceil(Math.random()*6)
 let y=Math.ceil(Math.random()*6)
 
@@ -79,3 +81,5 @@ else if(y==6){
     let one=document.querySelector('.six');
     one.style.visibility='visible'
 }
+}
+
