@@ -1,5 +1,8 @@
 function myfunction() {
 
+    let a=prompt("enter player 1")
+    let b=prompt("enter player 2")
+
     let one1=document.querySelector('.one');
     let two1=document.querySelector('.two');
     let three1=document.querySelector('.three');
@@ -27,11 +30,11 @@ console.log(y)
 
 if(x>y){
     let one=document.querySelector('.first')
-    one.innerHTML='Player 1 wins'
+    one.innerHTML=`winner is ${a}`
 }
 else if(x<y){
     let one=document.querySelector('.first')
-    one.innerHTML='Player 2 wins'
+    one.innerHTML=`winner is ${b}`
 }
 else{
     let one=document.querySelector('.first')
@@ -39,9 +42,9 @@ else{
 }
 
 let one=document.querySelector('.score1');
-one.innerHTML=`Score of player 1: ${x}`
+one.innerHTML=`Score of ${a}: ${x}`
 let two=document.querySelector('.score2');
-two.innerHTML=`Score of player 2: ${y}`
+two.innerHTML=`Score of ${b}: ${y}`
 
 
 
