@@ -1,4 +1,11 @@
 function myfunction() {
+
+    let one1=document.querySelector('.one');
+    let two1=document.querySelector('.two');
+    let three1=document.querySelector('.three');
+    let four1=document.querySelector('.four');
+    let five1=document.querySelector('.five');
+    let six1=document.querySelector('.six');
     
 let x=Math.ceil(Math.random()*6)
 let y=Math.ceil(Math.random()*6)
@@ -31,28 +38,59 @@ two.innerHTML=`Score of player 2: ${y}`
 
 //for first player 
 if(x==1){
-    let one=document.querySelector('.one');
-    one.style.visibility='visible'
+    
+    one1.style.visibility='visible'
+    two1.style.visibility='hidden'
+    three1.style.visibility='hidden'
+    four1.style.visibility='hidden'
+    five1.style.visibility='hidden'
+    six1.style.visibility='hidden'
 }
 else if(x==2){
-    let one=document.querySelector('.two');
-    one.style.visibility='visible'
+    
+    one1.style.visibility='hidden'
+    two1.style.visibility='visible'
+    three1.style.visibility='hidden'
+    four1.style.visibility='hidden'
+    five1.style.visibility='hidden'
+    six1.style.visibility='hidden'
 }
 else if(x==3){
-    let one=document.querySelector('.three');
-    one.style.visibility='visible'
+    
+    three1.style.visibility='visible'
+    one1.style.visibility='hidden'
+    two1.style.visibility='hidden'
+   
+    four1.style.visibility='hidden'
+    five1.style.visibility='hidden'
+    six1.style.visibility='hidden'
 }
 else if(x==4){
-    let one=document.querySelector('.four');
-    one.style.visibility='visible'
+    
+    four1.style.visibility='visible'
+    one1.style.visibility='hidden'
+    two1.style.visibility='hidden'
+    three1.style.visibility='hidden'
+    five1.style.visibility='hidden'
+    six1.style.visibility='hidden'
 }
 else if(x==5){
-    let one=document.querySelector('.five');
-    one.style.visibility='visible'
+    
+    five1.style.visibility='visible'
+    one1.style.visibility='hidden'
+    two1.style.visibility='hidden'
+    three1.style.visibility='hidden'
+    four1.style.visibility='hidden'
+    six1.style.visibility='hidden'
 }
 else if(x==6){
-    let one=document.querySelector('.six');
-    one.style.visibility='visible'
+    
+    one1.style.visibility='hidden'
+    two1.style.visibility='hidden'
+    three1.style.visibility='hidden'
+    four1.style.visibility='hidden'
+    five1.style.visibility='hidden'
+    six1.style.visibility='visible'
 }
 
 
